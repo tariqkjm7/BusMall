@@ -11,7 +11,7 @@ let productImages = ['bag.jpg','banana.jpg','bathroom.jpg',
 'cthulhu.jpg','dog-duck.jpg','pen.jpg','pet-sweep.jpg',
 'scissors.jpg','shark.jpg','sweep.png','tauntaun.jpg','water-can.jpg',
 'wine-glass.jpg','unicorn.jpg']
-let maxAttempts = 2;
+let maxAttempts = 25;
 let attempts = 1;
 
 let product = [];
