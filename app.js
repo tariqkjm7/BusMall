@@ -6,11 +6,19 @@ let centerImg = document.getElementById('centerImg');
 let rightImg = document.getElementById('rightImg');
 let results = document.getElementById('results');
 
+
 let productImages = ['bag.jpg', 'banana.jpg', 'bathroom.jpg',
     'boots.jpg', 'breakfast.jpg', 'bubblegum.jpg', 'chair.jpg',
     'cthulhu.jpg', 'dog-duck.jpg', 'pen.jpg', 'pet-sweep.jpg',
     'scissors.jpg', 'shark.jpg', 'sweep.png', 'tauntaun.jpg', 'water-can.jpg',
     'wine-glass.jpg', 'unicorn.jpg']
+
+let productImages = ['bag.jpg','banana.jpg','bathroom.jpg',
+'boots.jpg','breakfast.jpg','bubblegum.jpg','chair.jpg',
+'cthulhu.jpg','dog-duck.jpg','pen.jpg','pet-sweep.jpg',
+'scissors.jpg','shark.jpg','sweep.png','tauntaun.jpg','water-can.jpg',
+'wine-glass.jpg','unicorn.jpg']
+
 let maxAttempts = 25;
 let attempts = 1;
 // pre att //// include 
