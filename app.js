@@ -19,6 +19,8 @@ let prName = [];
 let nVotes = [];
 let nViews = [];
 
+
+
 function Images(productName) {
     this.pName = productName.split('.')[0];
 
