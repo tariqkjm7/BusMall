@@ -7,11 +7,7 @@ let rightImg = document.getElementById('rightImg');
 let results = document.getElementById('results');
 
 
-let productImages = ['bag.jpg', 'banana.jpg', 'bathroom.jpg',
-    'boots.jpg', 'breakfast.jpg', 'bubblegum.jpg', 'chair.jpg',
-    'cthulhu.jpg', 'dog-duck.jpg', 'pen.jpg', 'pet-sweep.jpg',
-    'scissors.jpg', 'shark.jpg', 'sweep.png', 'tauntaun.jpg', 'water-can.jpg',
-    'wine-glass.jpg', 'unicorn.jpg']
+
 
 let productImages = ['bag.jpg','banana.jpg','bathroom.jpg',
 'boots.jpg','breakfast.jpg','bubblegum.jpg','chair.jpg',
@@ -21,7 +17,6 @@ let productImages = ['bag.jpg','banana.jpg','bathroom.jpg',
 
 let maxAttempts = 25;
 let attempts = 1;
-// pre att //// include 
 let product = [];
 let prName = [];
 let nVotes = [];
@@ -86,19 +81,7 @@ function renderImg() {
     arr[2] = (rightIndex);
 
 
-    // while (arr.includes(leftIndex) ||
-    //     arr.includes(centerIndex) ||
-    //     arr.includes(rightIndex)) {
-
-    //     leftIndex = randomImage();
-    //     centerIndex = randomImage();
-    //     rightIndex = randomImage();
-
-    //     arr.push(leftIndex);
-    //     arr.push(centerIndex);
-    //     arr.push(rightIndex);
-    // }
-
+  
 
     console.log(arr);
 
