@@ -6,9 +6,6 @@ let centerImg = document.getElementById('centerImg');
 let rightImg = document.getElementById('rightImg');
 let results = document.getElementById('results');
 
-
-
-
 let productImages = ['bag.jpg','banana.jpg','bathroom.jpg',
 'boots.jpg','breakfast.jpg','bubblegum.jpg','chair.jpg',
 'cthulhu.jpg','dog-duck.jpg','pen.jpg','pet-sweep.jpg',
@@ -172,6 +169,7 @@ function chartRender() {
 
                     'rgba(54, 162, 235, 1)',
 
+                    //anything
                 ],
                 borderWidth: 1
             }]
