@@ -131,6 +131,8 @@ function showResult() {
         nViews.push(product[i].views);
         prName.push(product[i].pName)
     }
+    btn.removeEventListener('click', showResult);
+    saveToLocalStorage();
     chartRender();
 }
 
@@ -184,3 +186,28 @@ function chartRender() {
         }
     });
 }
+
+function saveToLocalStorage(){
+
+    let data = JSON.stringify(product)
+    localStorage.setItem('products',data);
+    console.log(product);
+
+}
+
+
+function readFromLocalStorage(){
+
+   let stringObj = localStorage.getItem('products');
+   
+   let obj = JSON.parse(stringObj);
+
+   if(obj){
+       product = obj;
+   }
+
+
+}
+readFromLocalStorage();
+
+
