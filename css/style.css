@@ -2,8 +2,15 @@
     box-sizing: border-box;
 }
 h1{
+color: red;
     text-align: center;
+    font-size: 100px;
+    border: solid 5px red;
+    border-radius: 35%;
+    background-color: black;
+
 }
+
 img{
     display: block;
     width: 150px;
@@ -15,17 +22,32 @@ img{
 #contanier{
     padding-left: 200px;
     border: 5px solid red;
-    width: 900px;
+    width: 700px;
     margin: 0 auto;
-    height: 175px;
+    height: 700px;
+    background-color: black;
+    border-radius: 90%;
+
+    
 }
 #leftImg,
 #rightImg,
 #centerImg{
-width: 200;
-margin: 10px;
+   
+margin-top: 250px;
+width: 700;
+/* margin: 10px; */
 border-radius: 70px;
+
 }
+#leftImg{
+    margin-left: -70px;
+}
+#centerImg{
+margin-left: 10px;
+margin-right: 10px;
+}
+
 
 span{
     margin-left: 20px;
@@ -35,4 +57,39 @@ span{
 margin-left: 20px;
 font-size: 30px;
 
+}
+p{
+padding-top: 90px;
+margin-top: 10px;
+    color: red;
+font-size: 35px;
+text-align: center;
+background-color: black;
+height: 250px;
+
+}
+#btn{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#button{
+
+    background-color: red; 
+    border: 3px solid black;
+    color: black;
+    padding: 15px 32px;
+    border-radius: 20%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#myChart{
+
+    background-color: black;
+}
+#myChart label{
+
+color: red;
 }
